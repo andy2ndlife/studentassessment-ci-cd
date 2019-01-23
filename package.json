@@ -1,0 +1,30 @@
+{
+  "name": "studentassessment-ci-cd",
+  "version": "1.0.0",
+  "description": "Simple CI/CD integration for StudentAssessment App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start app.js",
+    "stop": "forever stopall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy2ndlife/studentassessment-ci-cd.git"
+  },
+  "author": "Andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy2ndlife/studentassessment-ci-cd/issues"
+  },
+  "homepage": "https://github.com/andy2ndlife/studentassessment-ci-cd#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3",
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.1"
+  }
+}
